@@ -563,7 +563,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 with col1:
     st.header("Upload an Image")
     uploaded_file = st.file_uploader(
-        "Choose an image...", type=["jpg", "png", "jpeg"], accept_multiple_files=True)
+        "Choose an image...", type=["jpg", "png", "jpeg"])
 
 # Image Display
 with col2:
