@@ -585,5 +585,4 @@ with st.spinner("Analyzing image..."):
     # Simulate image analysis here
     st.success("Analysis complete!")
 
-
-st.write(result)
+    st.write(result)
