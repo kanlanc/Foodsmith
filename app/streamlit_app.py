@@ -580,10 +580,12 @@ with col2:
 
 # Loading Indicator for Analysis
 if uploaded_file is not None:
+    # result = main_function()
+    # st.write(result)
     with st.spinner("Analyzing image..."):
         result = main_function()  # Run your backend main function
 
         # Simulate image analysis here
-        st.success("Analysis complete!")
+    st.success("Analysis complete!")
 
-        st.write(result)
+    st.write(result)
