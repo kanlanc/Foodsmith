@@ -570,12 +570,12 @@ with col2:
     st.header("Preview")
     if uploaded_file is not None:
         image = Image.open(uploaded_file)
-        st.image(image, caption="Uploaded Image", use_column_width=True,
-                 channels="RGB", cls="uploaded-image")
+        st.image(image, caption="Uploaded Image", use_column_width=True)
 
-# Additional Markdown and HTML Styling
-st.markdown("## **Image Analysis Options**")
-st.markdown("<hr/>", unsafe_allow_html=True)
+
+# # Additional Markdown and HTML Styling
+# st.markdown("## **Image Analysis Options**")
+# st.markdown("<hr/>", unsafe_allow_html=True)
 
 
 # Loading Indicator for Analysis
