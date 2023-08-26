@@ -3,7 +3,7 @@ from backend import main_function
 import streamlit as st
 from PIL import Image
 import sys
-sys.path.append('../backend')
+# sys.path.append('../backend')
 
 # st.title('Image Processor')
 
