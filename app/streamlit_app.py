@@ -69,7 +69,7 @@ cohere_api_key = "5GIQYhLSWrnXOprlPqJSwKu6l7awxtBfi26R9c7c"
 
 def main_function():
     # from langchain.chat_models import ChatOpenAI
-
+    import cohere
     co = cohere.Client(cohere_api_key)
     claude = ChatAnthropic(temperature=0)
     cohere = ChatAnthropic(temperature=0)
