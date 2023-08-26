@@ -543,7 +543,7 @@ st.set_page_config(
 )
 
 # App Title
-st.title("Styled Image Upload App 📷")
+st.title("FoodSmith 📷")
 
 # Columns
 col1, col2 = st.columns(2)
