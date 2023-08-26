@@ -1,0 +1,7 @@
+modal
+langchain
+anthropic
+cohere
+streamlit
+PILLOW
+scikit-learn
