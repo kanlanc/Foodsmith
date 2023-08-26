@@ -69,10 +69,10 @@ cohere_api_key = "5GIQYhLSWrnXOprlPqJSwKu6l7awxtBfi26R9c7c"
 
 def main_function():
     # from langchain.chat_models import ChatOpenAI
-    import cohere
+
     co = cohere.Client(cohere_api_key)
     claude = ChatAnthropic(temperature=0)
-    cohere = ChatAnthropic(temperature=0)
+    cohereX = ChatAnthropic(temperature=0)
     gpt = ChatAnthropic(temperature=0)
 
     claude = ChatAnthropic(temperature=0)
@@ -467,7 +467,7 @@ def main_function():
 
     claude_chain = LLMChain(prompt=prompt_template, llm=claude)
 
-    cohere_chain = LLMChain(prompt=prompt_template, llm=cohere)
+    cohere_chain = LLMChain(prompt=prompt_template, llm=cohereX)
 
     gpt_chain = LLMChain(prompt=prompt_template, llm=gpt)
 
